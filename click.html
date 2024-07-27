@@ -1,0 +1,31 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script>
+	$(document).ready(function()
+	{
+		$("#p1").click(function()
+		{
+			alert("You clicked on the paragraph");
+		});
+		$("#p2").dblclick(function()
+		{
+			alert("You double clicked on the paragraph");
+		});
+		$("#p3").hover(function()
+		{
+			alert("mouse moved over the paragraph");
+		});
+	});
+</script>
+</head>
+<body>
+<p id="p1">Click on this paragraph</p>
+<br>
+<p id="p2">Double Click on this paragraph</p>
+<br>
+<p id="p3">Move cursor over this paragraph</p>
+</body>
+</html>
+

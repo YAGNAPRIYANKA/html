@@ -1,0 +1,36 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function()
+	{
+		$("#i1").mouseenter(function()
+		{
+			$("#i1").css("background-color","yellow");
+		});
+		$("#i1").mouseout(function()
+		{
+			$("#i1").css("background-color","pink");
+		});
+		$("#i2").mousedown(function()
+		{
+			$("#i2").css("background-color","blue");
+		});
+		$("#i2").mouseup(function()
+		{
+			$("#i2").css("background-color","green");
+		});	
+		$("#i3").mouseover(function()
+		{
+			alert("cursor is over this heading");
+		});
+		
+	});
+</script></head>
+<body>
+<h1 id="i1">Mouse Cursor over this heading 1 to trigger mouse events</h1>
+<h1 id="i2">Mouse Cursor over this heading 2 to trigger mouse events</h1>
+<h1 id="i3">Mouse Cursor over this heading 3 to trigger mouse events</h1></body>
+</html>
+
+ 

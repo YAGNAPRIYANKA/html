@@ -1,0 +1,42 @@
+<html>
+<head>
+<script>
+function validate()
+{
+var uname=f1.usr.value;
+if(uname==""||uname=="null")
+{
+alert("please provide username");
+return false;
+}
+var pass=f1.pwd.value;
+if(pass==""||pass=="null")
+{
+alert("please provide valide password format");
+return false;
+}
+if(pass.length<8)
+{
+alert("password must be 8 characters");
+return false;
+}
+var cpass=f1.cpwd.value;
+if(pass!=cpass)
+{
+alert("password and confirm password must be same");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="f1" method="post" action="sucess.html" onsubmit="return validate()">
+<table border="2">
+<caption align="center">Welcome to Login page</caption>
+<tr><td>User Name</td><td><input type="text" name="usr" ></td></tr>
+<tr><td>Password</td><td><input type="password" name="pwd" ></td></tr><tr>
+<tr><td>Confirm Password</td><td><input type="password" name="cpwd" ></td></tr><tr>
+<td><input type="submit" value="submit"></td><td><input type="reset" value="reset"></td></tr>
+</table>
+</form>
+</body> 

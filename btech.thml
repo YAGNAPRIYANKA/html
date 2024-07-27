@@ -1,0 +1,48 @@
+<html>
+<body ><tableborder="10">
+<table bgcolor="green"align="center"  cellspacing="5"cellpadding="8">
+<caption><b>I Have Studied:</b></caption>
+<tr><td align="center" border="2" bgcolor="white"bordercolor=rgb(6,9,2)>
+   I-I subjects
+    <ol><li>FE</li>
+	<li>LAC</li>
+	<li>c</li>
+	<li>AP</li>
+	<li>UHV</li>
+	<li>CI</li></ol></td>
+    <td align="center" border="2"bgcolor="pink">
+    <h2>I-II subjects</h2>
+     <ul type="circle"><li>PE</l
+	<li>ITVC</li>
+	<li>DS</li>
+	<li>PP</li>
+	<li>ENS</li>
+	<li>BED</li></ul></td>
+</tr>
+<td align="center" border="2" bgcolor="blue">
+    <h3>II-I subjects</h3>
+    <ol start="7"type=" number"  >
+    <li>P&S</li>
+    <li>MEFA</li>
+    <li>JAVA</li>
+    <li>DLD</li>
+    <li>DBMS</li></ol></td>
+	<td align="center" border="2" bgcolor="red">
+       <h4>II-II subjects</h4>
+       <ul type="square">
+	<li>DMS</li>
+	<li>OS</li>
+	<li>DAA</li>
+	<li>CO</li>
+	<li>SE</li></ul></td>
+</tr>
+<tr>
+<th colspan="2" align="center"><h5>III-I subjects:</h5>
+    <ol type="a">
+        <li>FSAD</li>
+	<li>FLAT</li>
+        <li>CN</li></ol></th></tr>
+</table>
+</table>
+</body>
+</html>
